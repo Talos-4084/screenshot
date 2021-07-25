@@ -1,6 +1,5 @@
 # screenshot
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fyukikaze-bot%2Fscreenshot)
 
 Screenshot system powered by Railway.
 
@@ -20,13 +19,12 @@ Query Parameters:
 
 Example Requests
 
-> Replace `my-custom-url.com` with your actual url.
 
 -   I want a normal screenshot.
-    -   `https://my-custom-url.com/?url=https://github.com`
+    -   `https://screenshot1.talos.tk/?url=https://github.com`
 -   I want a screenshot with a custom width and height.
-    -   `https://my-custom-url.com/?url=https://google.com&width=1366&height=625`
+    -   `https://screenshot1.talos.tk/?url=https://google.com&width=1366&height=625`
 -   I want a full screenshot of a website.
-    -   `https://my-custom-url.com/url?=https://discord.com&full=yes`
+    -   `https://screenshot1.talos.tk/url?=https://discord.com&full=yes`
 -   I want to check NSFW urls.
-    -   `https://my-custom-url.com/url?=https://nsfw.link&checkNsfw=yes`
+    -   `https://screenshot1.talos.tk/url?=https://nsfw.link&checkNsfw=yes`
